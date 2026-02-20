@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "description": "Un manual de artesanía del software ágil enfocado en escribir código limpio, mantenible y legible.",
+    "imagen": ""
+  },
+  {
+    "id": 2,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt & David Thomas",
+    "year": 1999,
+    "description": "Libro clásico que aborda buenas prácticas y pensamiento pragmático para el desarrollo moderno de software.",
+    "imagen": ""
+  },
+  {
+    "id": 3,
+    "title": "You Don't Know JS Yet",
+    "author": "Kyle Simpson",
+    "year": 2020,
+    "description": "Profundización en los mecanismos fundamentales de JavaScript, con enfoque en alcance, closures y comportamiento asíncrono.",
+    "imagen": ""
+  },
+  {
+    "id": 4,
+    "title": "Design Patterns",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson & John Vlissides",
+    "year": 1994,
+    "description": "Obra fundamental que introduce patrones reutilizables para el diseño de software orientado a objetos.",
+    "imagen": ""
+  },
+  {
+    "id": 5,
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "year": 1999,
+    "description": "Técnicas para mejorar el diseño del código existente sin alterar su comportamiento externo.",
+    "imagen": ""
+  },
+  {
+    "id": 6,
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "year": 2018,
+    "description": "Introducción moderna a JavaScript que cubre fundamentos del lenguaje, navegador y Node.js.",
+    "imagen": ""
+  }
+]
