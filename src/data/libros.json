@@ -5,7 +5,7 @@
     "author": "Robert C. Martin",
     "year": 2008,
     "description": "Un manual de artesanía del software ágil enfocado en escribir código limpio, mantenible y legible.",
-    "imagen": ""
+    "imagen": "/images/clean-code.webp"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "author": "Andrew Hunt & David Thomas",
     "year": 1999,
     "description": "Libro clásico que aborda buenas prácticas y pensamiento pragmático para el desarrollo moderno de software.",
-    "imagen": ""
+    "imagen": "/images/pragmatic.webp"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "author": "Kyle Simpson",
     "year": 2020,
     "description": "Profundización en los mecanismos fundamentales de JavaScript, con enfoque en alcance, closures y comportamiento asíncrono.",
-    "imagen": ""
+    "imagen": "/images/js.webp"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "author": "Erich Gamma, Richard Helm, Ralph Johnson & John Vlissides",
     "year": 1994,
     "description": "Obra fundamental que introduce patrones reutilizables para el diseño de software orientado a objetos.",
-    "imagen": ""
+    "imagen": "/images/design.webp"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "author": "Martin Fowler",
     "year": 1999,
     "description": "Técnicas para mejorar el diseño del código existente sin alterar su comportamiento externo.",
-    "imagen": ""
+    "imagen": "/images/refactoring.jpg"
   },
   {
     "id": 6,
@@ -45,6 +45,6 @@
     "author": "Marijn Haverbeke",
     "year": 2018,
     "description": "Introducción moderna a JavaScript que cubre fundamentos del lenguaje, navegador y Node.js.",
-    "imagen": ""
+    "imagen": "/images/eloquent.webp"
   }
 ]

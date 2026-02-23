@@ -5,6 +5,8 @@ defineProps({
     required: true
   }
 })
+
+const base = import.meta.env.BASE_URL
 </script>
 
 <template>
@@ -12,7 +14,7 @@ defineProps({
     <router-link :to="`/product/${book.id}`">
       <img
         v-if="book.imagen"
-        :src="book.imagen"
+        :src="base + book.imagen"
         :alt="book.title"
       />
 
@@ -25,9 +27,13 @@ defineProps({
 
 <style scoped>
 .card {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #323232;
+  padding: 1em;
+  border-radius: 5px;
   transition: 0.2s ease;
 }
 
@@ -37,15 +43,13 @@ defineProps({
 }
 
 img {
-  width: 100%;
-  height: 250px;
+  aspect-ratio: 1/1.5;
   object-fit: cover;
-  margin-bottom: 1rem;
+    
 }
 
 h2 {
   font-size: 1.1rem;
-  margin-bottom: 0.5rem;
 }
 
 p {

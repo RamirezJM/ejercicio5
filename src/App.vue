@@ -20,11 +20,12 @@
 <style scoped>
 .navbar {
   background: #222;
-  padding: 1rem;
+  padding: 1em;
 }
 
 nav {
   display: flex;
+  justify-content: center;
   gap: 1.5rem;
 }
 
@@ -39,6 +40,6 @@ a.router-link-active {
 }
 
 main {
-  padding: 2rem;
+  padding: 2em;
 }
 </style>
